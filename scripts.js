@@ -6,7 +6,9 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	attribution : '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var marker = L.marker([40.745198, -73.981476]).addTo(map;)
+var marker = L.marker([40.745198, -73.981476]).addTo(map);
+
+marker.bindPopup("<b>*Full address*</b>This is the homeless shelter in *borough*<br>").openPopup();
 
 /*var numShelter = warmShelterData.rows;
 
