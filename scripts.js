@@ -12,5 +12,4 @@ for (var i = 0; i < mapDataArray.length; i++) {
 	var location = mapDataArray[i];
 	
 var marker = L.marker([location.latitude, location.longitude]).addTo(map);
-
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+marker.bindPopup("<b>Hello world!</b><br>I am a popup </b>").openPopup();
